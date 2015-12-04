@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cd /project
+cd /project/src
 dnu restore
 
 [ ! -z "$DNX_PROJECT" ] && cd $DNX_PROJECT
